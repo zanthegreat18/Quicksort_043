@@ -48,20 +48,8 @@ void q_short(int low, int high)
 	pivot = arr[low];
 
 	i = low + 1;
-	j = high; 
-
-
-	while ((arr[1] <= pivot) && (i <= high))
-	{
-		i++;
-		cmp_count++;
-	}
-	cmp_count++;
-
-	while ((arr[j] > pivot) && (j >= low))
-	{
-		j--;
-		cmp_count++;
-	}
-	cmp_count++;
+	j = high;
 }
+
+
+	while (i <= j) {

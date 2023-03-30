@@ -97,3 +97,16 @@ void display() {
 	cout << "\n\nNumber of Comparasions: " << cmp_count << endl;
 	cout << "Number of data movements: " << mov_count << endl;
 }
+
+int main()
+{
+
+	input();
+
+	q_sort(0, n - 1);
+	display();
+	system("pause");
+
+	return 0;
+}
+
